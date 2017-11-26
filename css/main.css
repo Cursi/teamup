@@ -1,0 +1,110 @@
+body
+{
+	letter-spacing:1px;
+	background-color:rgb(250,250,250);
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-primary
+{
+	background-color:rgb(20, 107, 183)!important;
+	padding:0;
+}
+
+.navbar-brand
+{
+	margin-left:10px;
+	color:rgb(250,250,250) !important;
+}
+
+.navbar .btn.btn-secondary
+{
+	font-size: 12px;
+	color: rgb(20, 107, 183);
+	background-color:rgb(250,250,250) !important;
+	padding-top:6px;
+	padding-bottom:6px;
+	cursor:pointer;
+	margin-right:10px!important;
+}
+
+.btn.btn-secondary.reversedColor
+{
+	margin-top: 16px !important;
+	background-color:rgb(20, 107, 183) !important;
+	color:rgb(250,250,250) !important;
+}
+
+html, body {
+	height: 100%;
+}
+
+#firstPageCon
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: calc(100% - 51px);
+}
+
+#firstPageLogo
+{
+	width:128px;
+	height:118px;
+}
+
+#firstPageTitle
+{
+	color:rgb(20, 107, 183);
+	font-size:3em;
+}
+
+#firstPageDesc
+{
+	font-size:2em;
+	text-align: center;
+}
+
+#header
+{
+	margin:0;
+}
+
+.add-btn {
+	font-size: 25px;
+	text-align: right;
+	padding-right: 20px !important;
+}
+
+.mdl-layout__drawer-button
+{
+	color:rgb(20, 107, 183)!important;
+}
+
+.mdl-navigation__link
+{
+	padding:4px!important;
+	color:rgba(0,0,0,0.75)!important;
+	letter-spacing:1px!important;
+	font-size:16px!important;
+	cursor:pointer;
+	text-decoration:none!important;
+	text-align:center;
+}
+
+.mdl-layout-title
+{
+	cursor:pointer;
+}
+
+.uppBtn
+{
+	padding:8px!important;
+}
+
+#mainContainer
+{
+	width:100%;
+	margin-left:0;
+	text-align:center;
+}
